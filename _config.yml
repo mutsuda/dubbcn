@@ -40,6 +40,9 @@ kramdown:
   smart_quotes:   lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
+
+include: [_redirects]
+
 # Exclusions from the final site
 exclude:
   - optional
