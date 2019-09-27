@@ -12,6 +12,8 @@
 
   <nav class="sidebar-nav"> 
 
+    <a class="sidebar-nav-item{% if page.url == 'https://dubbcn.org/alta' %} active{% endif %}" href="{{ site.baseurl }}/alta">Alta</a>
+
     {% assign pages_list = site.pages | sort:"url" %}
     {% for node in pages_list %}
       {% if node.title != null %}
@@ -21,16 +23,8 @@
       {% endif %}
     {% endfor %}
 
-    <a class="sidebar-nav-item{% if page.url == 'https://dubbcn.org/alta' %} active{% endif %}" href="{{ site.baseurl }}/alta">Alta</a>
-
     <a class="sidebar-nav-item{% if page.url == 'https://dubbcn.org/legal' %} active{% endif %}" href="{{ site.baseurl }}/legal">Legal</a>
 
-
-
-  <!--
-    <a class="sidebar-nav-item" href="https://via.hypothes.is/{{ site.url }}{{ site.baseurl }}{{page.url}}/" data-proofer-ignore>Annotate me</a>
-    <script src="https://hypothes.is/embed.js" async></script>
-  -->
 {% comment %}
   <!-- The code below is used for manually entered links  -->
     <span style='cursor:pointer;' onclick="javascript:var hypothesis = document.createElement('script');
