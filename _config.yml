@@ -2,16 +2,16 @@
 
 # Setup
 title:               "DUB."
-tagline:             "doblatge units barcelona"
-description:         "dub. és una plataforma que busca posar en comú totes les inquietuds del col·lectiu per tal d'enfocar el futur de la professió"
+tagline:             "doblatge unida de barcelona"
+description:         "dub. és una associació professional de doblatge de Barcelona"
 url:                 "https://dubbcn.org"
 baseurl:             ""
 
 # About/contact
 author:
-  name:              Alex Gil
-  url:               https://twitter.com/elotroalex
-  email:             colibri.alex@gmail.com
+  name:              Masumi Mutsuda
+  url:               https://twitter.com/mutsuda
+  email:             mutsuda@gmail.com
 
 # Color scheme. Options: red, orange, magenta, cyan, blue, brown
 color-scheme: blue
