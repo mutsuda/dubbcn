@@ -10,8 +10,8 @@ baseurl:             ""
 # About/contact
 author:
   name:              Masumi Mutsuda
-  url:               https://twitter.com/mutsuda
-  email:             mutsuda@gmail.com
+  url:               https://twitter.com/dubbcn
+  email:             hola@dubbcn.org
 
 # Color scheme. Options: red, orange, magenta, cyan, blue, brown
 color-scheme: blue
@@ -19,14 +19,11 @@ color-scheme: blue
 # Permalinks
 permalink: pretty
 permalink: /:title/
+permalink: /blog/:year/:month/:day/:title/
 
 # Set encoding to UTF-8
 encoding: utf-8
 
-# Collections for texts
-collections:
-  texts:
-    output: true
 
 # Markdown specs
 markdown: kramdown
